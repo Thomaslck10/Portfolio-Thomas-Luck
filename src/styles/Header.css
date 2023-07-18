@@ -1,0 +1,26 @@
+body{
+    margin: 0;
+}
+
+header{
+    position: sticky;
+    top: 0;
+    background-color: white;
+}
+
+.nav-bar{
+    display: flex;
+    padding: 0.5rem 0.5rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-bar a{
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+}
+
+.nav-bar a:hover{
+    color: blueviolet;
+}

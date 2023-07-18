@@ -1,0 +1,32 @@
+#About{
+    background-color: #6C0984 ;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+
+}
+
+#About h1, #About h2, #About p{
+    color: white;
+    text-align: center;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+p {
+    font-size: 24px;
+}
+
+img{
+    border-radius:100%;
+    object-fit:cover;
+    height: 200px;
+    width: 200px;
+}
