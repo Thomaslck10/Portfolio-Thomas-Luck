@@ -7,25 +7,25 @@ function Skills() {
               <div>
                 <h3>Front-end</h3>
                 <ul>
-                    <li></li>
-                    <li></li>
-                    <li></li>
+                    <li>React</li>
+                    <li>JavaScript</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
                 </ul>
               </div>
               <div>
                 <h3>Back-end</h3>
                 <ul>
-                    <li></li>
-                    <li></li>
-                    <li></li>
+                    <li>Node.js</li>
+                    <li>MongoDB</li>
                 </ul>
               </div>
               <div>
                 <h3>Outils</h3>
                 <ul>
-                    <li></li>
-                    <li></li>
-                    <li></li>
+                    <li>Visual Studio Code</li>
+                    <li>git & github</li>
+                    <li>Npm</li>
                 </ul>
               </div>
         </section>

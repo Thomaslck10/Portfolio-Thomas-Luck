@@ -4,16 +4,16 @@ function Header() {
     return (
         <header>
             <nav className='nav-bar'>
-                <a href="About">
+                <a href="#About">
                     À propos
                 </a>
-                <a href="Skills">
+                <a href="#Skills">
                     Compétences
                 </a>
-                <a href="#">
+                <a href="#Works">
                     Portfolio
                 </a>
-                <a href="#">
+                <a href="#Contact">
                     Contact
                 </a>
             </nav>

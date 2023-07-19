@@ -1,0 +1,13 @@
+#Works {
+    padding: 1rem;
+}
+
+#Works h2{
+    text-align: center;
+} 
+
+.work-card {
+    width: 100%;
+    aspect-ratio: 1/1;
+    box-shadow:  5px 15px 0 rgba(155, 161, 173, 0.2), -3px 3px 3px 3px rgba(230, 234, 238, 0.2);
+}

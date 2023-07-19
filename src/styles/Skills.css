@@ -1,7 +1,25 @@
 #Skills { 
     padding: 1rem;
+    background-color:  ;
 }
 
-#Skills h2 {
+#Skills h2, #Skills h3 {
     text-align: center;
+}
+
+li {
+    list-style-type: none;
+    width: fit-content;
+    border: solid 2px #6C0984;
+    border-radius: 50px;
+    list-style-type: none;
+    padding: 0.5rem 1rem;
+    margin-bottom: 1rem;
+}
+
+ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 0;
 }
