@@ -24,7 +24,7 @@ function Skills() {
                 <h3>Outils</h3>
                 <ul>
                     <li>Visual Studio Code</li>
-                    <li>git & github</li>
+                    <li>Git & Github</li>
                     <li>Npm</li>
                 </ul>
               </div>
