@@ -1,9 +1,10 @@
 import '../../styles/About.css';
-import Portrait from '../../assets/images/portrait.jpg'
+import Portrait from '../../assets/images/portrait.jpg';
 
 function About() {
     return (
         <section id='About'>
+            
             <div>
               <h1>Thomas Luck</h1>
               <h2>Développeur full-stack</h2>

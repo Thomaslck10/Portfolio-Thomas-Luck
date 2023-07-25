@@ -24,7 +24,7 @@ p {
     font-size: 24px;
 }
 
-img{
+#About img{
     border-radius:100%;
     object-fit:cover;
     height: 200px;

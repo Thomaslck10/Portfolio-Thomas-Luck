@@ -1,22 +1,13 @@
 import '../../styles/Header.css';
+import Collapse from '../Collapse';
 
 function Header() {
     return (
         <header>
-            <nav className='nav-bar'>
-                <a href="#About">
-                    À propos
-                </a>
-                <a href="#Skills">
-                    Compétences
-                </a>
-                <a href="#Works">
-                    Portfolio
-                </a>
-                <a href="#Contact">
-                    Contact
-                </a>
-            </nav>
+            <div className='collapse'>
+              <Collapse />
+            </div>
+
         </header>
     )
 }
