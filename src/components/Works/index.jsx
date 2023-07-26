@@ -9,8 +9,10 @@ function Works() {
     return (
         <section id='Works'>
             <h2>Mes travaux</h2>
-            <div className='cards-container'>              
+            <div className='cards-container'> 
+                   <a >   
                     <img src={P2}></img>
+                    </a>   
                     <img src={P3}></img>                
                     <img src={P5}></img>
                     <img src={P6}></img>
