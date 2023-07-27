@@ -4,6 +4,7 @@ function Skills() {
     return (
         <section id='Skills'>
               <h2>Mes compétences</h2>
+              <div className='grid-skills'>
               <div>
                 <h3>Front-end</h3>
                 <ul>
@@ -27,6 +28,7 @@ function Skills() {
                     <li>Git & Github</li>
                     <li>Npm</li>
                 </ul>
+              </div>
               </div>
         </section>
     )

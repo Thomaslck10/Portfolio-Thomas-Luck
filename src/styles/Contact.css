@@ -1,12 +1,16 @@
+section{
+    border-bottom: 2px solid yellow;
+}
+
 #Contact{
     background-color: blueviolet;
-    border-bottom: 2px solid yellow;
     padding: 1.5rem 1rem 0.5rem 1rem ;
 }
 
 #Contact p{
     margin: 0;
     font-size: 16px;
+    font-weight: 600;
 }
 
 #Contact img{
@@ -19,4 +23,12 @@
     display: flex;
     align-items: center;
     margin-bottom: 1rem;
+}
+
+@media screen and (min-width: 600px) {
+    #Contact{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-items: center;
+    }
 }

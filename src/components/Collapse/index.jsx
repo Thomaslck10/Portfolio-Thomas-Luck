@@ -10,7 +10,23 @@ function Collapse({}) {
       <img src={bar} className="collapse-img" onClick={() => setToggle(!toggle)}>
       </img>
       <div className={toggle ? 'show-content' : 'hidden-content'}>
-
+         <nav>
+          <a href='#Contact'>
+            <h3>Contact</h3>
+          </a>
+          <a href='#About'>
+            <h3>A propos</h3>
+          </a>
+          <a href='#Skills'>
+            <h3>Compétences</h3>
+          </a>
+          <a href='#Works'>
+            <h3>Travaux</h3>
+          </a>
+          <a href='#Services'>
+            <h3>Services</h3>
+          </a>
+         </nav>
       </div>
     </div>
   );

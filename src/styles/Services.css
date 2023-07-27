@@ -1,3 +1,36 @@
-#Services h2{
+#Services h2, #Services h3{
     text-align: center;
+}
+
+#Services{
+    padding: 1rem;
+}
+
+#Services img{
+    height: 200px;
+    width:90% ;
+    border-radius: 20px;
+}
+
+.service-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 1rem;
+    border-radius: 10px;
+    box-shadow: 3px 5px 15px 0 rgba(155, 161, 173, 0.2), -3px 3px 3px 3px rgba(230, 234, 238, 0.2);
+}
+
+@media screen and (min-width: 700px) {
+    .service-grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+    }
+}
+
+@media screen and (min-width: 1100px) {
+    .service-grid{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
 }

@@ -11,5 +11,23 @@
     box-shadow: 3px 5px 15px 0 rgba(155, 161, 173, 0.2), -3px 3px 3px 3px rgba(230, 234, 238, 0.2);
     object-fit: cover;
     border-radius: 5px;
-    margin-bottom: 1rem;
 }
+
+#Works img:hover{
+    background-color: blueviolet;
+}
+
+.cards-container{
+    display: grid;
+    grid-template-columns:1fr;
+    justify-items: center;
+    gap:1rem ;
+}
+
+@media screen and (min-width: 700px){
+   .cards-container{
+    grid-template-columns: 1fr 1fr;
+   }
+
+}
+
