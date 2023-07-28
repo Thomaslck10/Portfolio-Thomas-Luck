@@ -9,12 +9,32 @@ function Works() {
     return (
         <section id='Works'>
             <h2>Mes travaux</h2>
-            <div className='cards-container'>   
-                    <img src={P2}></img> 
-                    <img src={P3}></img>                
+            <div className='cards-container'> 
+                   <div className='works-card'>
+                    <img src={P2}></img>
+                    <h3>Créez la page d'accueil d'une agence de voyage avec HTML & CSS</h3>
+                    <p></p> 
+                   </div>
+                   <div className='works-card'>
+                    <img src={P3}></img>
+                    <h3>Créez une page web dynamique avec JavaScript</h3>
+                    <p></p>   
+                   </div>                
+                   <div className='works-card'>
                     <img src={P5}></img>
+                    <h3>Débuggez et optimisez un site de photographe</h3>
+                    <p></p>   
+                   </div>
+                   <div className='works-card'>
                     <img src={P6}></img>
+                    <h3>Créez une application web de location immobilière avec React</h3>
+                    <p></p>   
+                   </div>
+                   <div className='works-card'>
                     <img src={P7}></img>
+                    <h3>Développez le back-end d'un site de notation de livres</h3>
+                    <p></p>   
+                   </div>
             </div>
         </section>
     )

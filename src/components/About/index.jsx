@@ -2,7 +2,8 @@ import '../../styles/About.css';
 import Portrait from '../../assets/images/portrait.jpg';
 
 
-const PDF_FILE_URL = '../../assets/pdf/CV.pdf'
+const PDF_FILE_URL = '/CV.pdf'
+
 function About() {
     const downloadFileAtURL = (url) => {
         const fileName = url.split('/').pop();
@@ -12,6 +13,7 @@ function About() {
         document.body.appendChild(aTag);
         aTag.click();
         aTag.remove();
+        console.log(url);
     };
     return (
         <section id='About'>
