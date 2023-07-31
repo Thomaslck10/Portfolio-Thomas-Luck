@@ -4,6 +4,8 @@ import P3 from '../../assets/images/P3.png';
 import P5 from '../../assets/images/P5.png';
 import P6 from '../../assets/images/P6.png';
 import P7 from '../../assets/images/P7.png';
+import Collapse from '../../components/Collapse';
+
 
 function Works() {
     return (
@@ -13,27 +15,27 @@ function Works() {
                    <div className='works-card'>
                     <img src={P2}></img>
                     <h3>Créez la page d'accueil d'une agence de voyage avec HTML & CSS</h3>
-                    <p></p> 
+                    <Collapse />
                    </div>
                    <div className='works-card'>
                     <img src={P3}></img>
-                    <h3>Créez une page web dynamique avec JavaScript</h3>
-                    <p></p>   
+                    <h3>Créez une page web dynamique avec JavaScript</h3> 
+                    <Collapse /> 
                    </div>                
                    <div className='works-card'>
                     <img src={P5}></img>
                     <h3>Débuggez et optimisez un site de photographe</h3>
-                    <p></p>   
+                    <Collapse />   
                    </div>
                    <div className='works-card'>
                     <img src={P6}></img>
                     <h3>Créez une application web de location immobilière avec React</h3>
-                    <p></p>   
+                    <Collapse />   
                    </div>
                    <div className='works-card'>
                     <img src={P7}></img>
                     <h3>Développez le back-end d'un site de notation de livres</h3>
-                    <p></p>   
+                    <Collapse />    
                    </div>
             </div>
         </section>

@@ -15,16 +15,25 @@
     border-radius: 5px;
 }
 
-#Works img:hover{
-    background-color: blueviolet;
-}
-
 .cards-container{
     display: grid;
     grid-template-columns:1fr;
     justify-items: center;
     gap:1rem ;
 }
+
+#Works a{
+    cursor: pointer;
+}
+
+#Works a:hover{
+   color: blueviolet;
+}
+
+
+
+
+
 
 @media screen and (min-width: 700px){
    .cards-container{
