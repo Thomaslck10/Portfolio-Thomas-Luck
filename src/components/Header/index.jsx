@@ -1,31 +1,35 @@
 import '../../styles/Header.css';
-import Collapse from '../Collapse';
+import bar from '../../assets/images/menu-bar.png';
+import { useState } from 'react';
 
 function Header() {
-    return (
-        <header>
-            <div className='collapse'>
-              <Collapse />
-            </div>
-        <nav className='nav-bar'>
-          <a href='#Contact'>
+  const [toggle, setToggle] = useState();
+
+  return (
+    <header>
+      <nav>
+      <img src={bar} className="collapse-img" onClick={() => setToggle(!toggle)}>
+      </img>
+      <div className={toggle ? 'show-content' : 'hidden-content'}>      
+          <a href='#Contact' onClick={() => setToggle(!toggle)}>
             <h3>Contact</h3>
           </a>
-          <a href='#About'>
+          <a href='#About' onClick={() => setToggle(!toggle)}>
             <h3>A propos</h3>
           </a>
-          <a href='#Skills'>
+          <a href='#Skills' onClick={() => setToggle(!toggle)}>
             <h3>Compétences</h3>
           </a>
-          <a href='#Works'>
+          <a href='#Works' onClick={() => setToggle(!toggle)}>
             <h3>Travaux</h3>
           </a>
-          <a href='#Services'>
+          <a href='#Services' onClick={() => setToggle(!toggle)}>
             <h3>Services</h3>
           </a>
-         </nav>
-        </header>
-    )
+      </div>
+      </nav>
+    </header>
+  );
 }
 
 export default Header;

@@ -27,3 +27,43 @@
 footer a{
     padding: 1rem 0.5rem;
 }
+
+.logo-phone{
+    height: 30px;
+    width: 30px; 
+    margin-right: 0.5rem;
+}
+
+.logo-mail{
+    height: 30px;
+    width: 30px;
+    margin-right: 0.5rem;
+}
+
+footer p{
+    font-size: 14px;
+    color: white;
+}
+
+.phone-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mail-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+@media screen and (min-width: 600px){
+   .contact-footer{
+    display: flex;
+    justify-content: center;
+   } 
+   .phone-div{
+    margin-right: 1rem;
+   }
+}

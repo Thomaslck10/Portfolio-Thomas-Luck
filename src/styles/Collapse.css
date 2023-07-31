@@ -1,12 +1,7 @@
-.collapse-img{
-    height: 30px;
-    width: 30px;
-    cursor: pointer;
+.show-content{
+
 }
 
-
-@media screen and (min-width: 600px) {
-    .collapse-img{
-        display: none;
-    }
+.hidden-content{
+    display: none;
 }

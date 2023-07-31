@@ -1,6 +1,8 @@
 import '../../styles/Footer.css';
 import LogoGithub from '../../assets/images/logo_github.svg';
-import LogoLinkedin from '../../assets/images/logo_linkedin.png'; //svg
+import LogoLinkedin from '../../assets/images/logo_linkedin.png';
+import Phone from '../../assets/images/phone.png';
+import Mail from '../../assets/images/mail.png';
 
 function Footer() {
     return (
@@ -13,6 +15,16 @@ function Footer() {
                 <img src={LogoLinkedin} className='logo'></img>
             </a>
          </div>
+         <div className='contact-footer'>
+          <div className='phone-div'>
+            <img src={Phone} className='logo-phone'></img>
+            <p>06.42.92.57.52</p>
+          </div>
+         <div className='mail-div'>
+            <img src={Mail} className='logo-mail'></img>
+            <p>Thomas.luck10@outlook.fr</p>
+         </div>
+        </div>
          <h3>Réalisé par Thomas Luck</h3>
         </footer>
     )
