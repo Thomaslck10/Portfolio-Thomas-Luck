@@ -32,12 +32,14 @@ footer a{
     height: 30px;
     width: 30px; 
     margin-right: 0.5rem;
+    filter: invert(1);
 }
 
 .logo-mail{
     height: 30px;
     width: 30px;
     margin-right: 0.5rem;
+    filter: invert(1);
 }
 
 footer p{

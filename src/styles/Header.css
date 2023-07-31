@@ -21,13 +21,13 @@ nav{
     display: none;
 }
 
-.show-content a{
+.show-content-header a{
    cursor: pointer;
    text-decoration: none;
    color: black;
 }
 
-.show-content a:hover{
+.show-content-header a:hover{
     color: blueviolet;
 }
 
@@ -42,5 +42,8 @@ nav{
 @media screen and (min-width: 600px) {
     .collapse-img{
         display: none;
+    }
+    nav .hidden-content{
+        display: block;
     }
 }

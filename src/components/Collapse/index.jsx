@@ -1,7 +1,7 @@
 import '../../styles/Collapse.css';
 import { useState } from 'react';
 
-function Collapse() {
+function Collapse({ description, lien }) {
   const [toggle, setToggle] = useState();
   return (
     <div className="collapse">
@@ -11,7 +11,9 @@ function Collapse() {
       <h3 className={toggle ? 'hidden-content' : 'show-content'} onClick={() => setToggle(!toggle)}>
         Voir plus
       </h3>
-      <div className={toggle ? 'show-content' : 'hidden-content'}>
+      <div className={toggle ? 'show-content-description' : 'hidden-content'}>
+        <p>{description}</p>
+        <a target='_blank' href={lien}>Lien vers le repo Github</a>
       </div>
     </div>
   );

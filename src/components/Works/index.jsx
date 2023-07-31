@@ -15,27 +15,27 @@ function Works() {
                    <div className='works-card'>
                     <img src={P2}></img>
                     <h3>Créez la page d'accueil d'une agence de voyage avec HTML & CSS</h3>
-                    <Collapse />
+                    <Collapse lien={'https://github.com/Thomaslck10/P2'} description={'Création d\'une page d\'accueil pour l\'agence de voyage Booki, entièrement responsive en utilisant uniquement HTML et CSS, utilisation de Font Awesome pour les logos.'} />
                    </div>
                    <div className='works-card'>
                     <img src={P3}></img>
                     <h3>Créez une page web dynamique avec JavaScript</h3> 
-                    <Collapse /> 
+                    <Collapse lien={''} description={'Création d\'une page web dynamique en utilisant Javascript'}/> 
                    </div>                
                    <div className='works-card'>
                     <img src={P5}></img>
                     <h3>Débuggez et optimisez un site de photographe</h3>
-                    <Collapse />   
+                    <Collapse lien={''} description={''}/>   
                    </div>
                    <div className='works-card'>
                     <img src={P6}></img>
                     <h3>Créez une application web de location immobilière avec React</h3>
-                    <Collapse />   
+                    <Collapse lien={''} description={''}/>   
                    </div>
                    <div className='works-card'>
                     <img src={P7}></img>
                     <h3>Développez le back-end d'un site de notation de livres</h3>
-                    <Collapse />    
+                    <Collapse lien={''} description={''}/>    
                    </div>
             </div>
         </section>
