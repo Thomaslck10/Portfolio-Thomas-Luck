@@ -17,11 +17,11 @@ function Footer() {
          </div>
          <div className='contact-footer'>
           <div className='phone-div'>
-            <img src={Phone} className='logo-phone'></img>
+            <img src={Phone} className='logo-phone' alt='logo téléphone'></img>
             <p>06.42.92.57.52</p>
           </div>
          <div className='mail-div'>
-            <img src={Mail} className='logo-mail'></img>
+            <img src={Mail} className='logo-mail' alt='logo mail'></img>
             <p>Thomas.luck10@outlook.fr</p>
          </div>
         </div>

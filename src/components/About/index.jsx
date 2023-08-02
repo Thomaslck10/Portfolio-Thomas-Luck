@@ -23,7 +23,7 @@ function About() {
               <h2>Développeur full-stack</h2>
               <p>Jeune développeur passionné du web, venez découvrir sur mon site web mes différentes compétences et mes travaux réalisés. </p>
             </div>
-            <img src={Portrait}></img>
+            <img src={Portrait} alt='portrait Thomas Luck'></img>
             
         </section>
     )

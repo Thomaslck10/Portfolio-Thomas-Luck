@@ -6,11 +6,11 @@ function Contact() {
     return (
         <section id='Contact'>
             <div>
-            <img src={Phone}></img>
+            <img src={Phone} alt='logo téléphone'></img>
             <p>06.42.92.57.52</p>
             </div>
             <div>
-            <img src={Mail}></img>
+            <img src={Mail} alt='logo mail'></img>
             <p>Thomas.luck10@outlook.fr</p>
             </div>
         </section>

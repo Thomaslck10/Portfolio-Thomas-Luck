@@ -18,3 +18,15 @@ a{
 .collapse{
     margin-bottom: 1rem;
 }
+
+.show-content-description p{
+    font-size: 18px;
+}
+
+.show-content-description a{
+    font-weight: 600;
+}
+
+.collapse a{
+    font-weight: 600;
+}

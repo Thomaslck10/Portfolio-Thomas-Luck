@@ -9,7 +9,7 @@ function Header() {
   return (
     <header>
       <nav>
-      <img src={bar} className="collapse-img" onClick={() => setToggle(!toggle)}>
+      <img src={bar} className="collapse-img" onClick={() => setToggle(!toggle)} alt='icone liste'>
       </img>
       <div className={toggle ? 'show-content-header' : 'hidden-content'}>
         {Object.keys(links).map(key => 
