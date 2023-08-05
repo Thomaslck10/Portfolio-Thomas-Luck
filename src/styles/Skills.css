@@ -1,6 +1,6 @@
 #Skills { 
     padding: 1rem;
-    background-color: #EEE5F0;
+    background-color: whitesmoke;
 }
 
 #Skills h2, #Skills h3 {
@@ -10,7 +10,7 @@
 li {
     list-style-type: none;
     width: fit-content;
-    border: solid 2px #6C0984;
+    border: solid 2px grey;
     border-radius: 50px;
     list-style-type: none;
     padding: 0.5rem 1rem;

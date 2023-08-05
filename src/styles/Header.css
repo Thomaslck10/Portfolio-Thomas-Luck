@@ -23,7 +23,7 @@ nav{
 }
 
 .hidden-content a:hover{
-    color: blueviolet;
+    color: grey;
 }
 
 .show-content-header{
@@ -39,7 +39,7 @@ nav{
 }
 
 .show-content-header a:hover{
-    color: blueviolet;
+    color: grey;
 }
 
 .collapse-img{
