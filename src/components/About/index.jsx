@@ -5,7 +5,7 @@ function About() {
 
     return (
         <section id='About'>
-            <a href='https://thomaslck10.github.io/Portfolio-Thomas-Luck/CV.pdf' target='_blank'>Télécharger mon CV</a>         
+                     
             <div>
               <h1>Thomas Luck</h1>
               <h2>Développeur full-stack</h2>
