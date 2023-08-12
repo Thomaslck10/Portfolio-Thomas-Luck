@@ -8,14 +8,19 @@ header{
     top: 0;
     background-color: white;
     box-shadow: 3px 5px 15px 0 rgba(155, 161, 173, 0.2), -3px 3px 3px 3px rgba(0 0 0 / 33%);
+}
+
+.home{
     padding: 0.5rem;
 }
 
 nav{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: flex-end;
     padding: 0.5rem;
+    justify-content: space-between;
+    box-shadow: 3px 4px 15px 0 rgba(155, 161, 173, 0.2), 0px -1px 3px 3px rgba(0 0 0 / 33%);
 }
 
 .hidden-content{
@@ -29,6 +34,9 @@ nav{
 .show-content-header{
     display: flex;
     flex-direction: column;
+    align-items: flex-end;
+    margin-top: 1rem;
+    padding: 0.5rem;
 }
 
 .show-content-header a{
@@ -51,10 +59,15 @@ nav{
 
 
 @media screen and (min-width: 600px) {
+    header{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
     .collapse-img{
         display: none;
     }
-    nav .hidden-content{
+    .hidden-content{
         display: block;
     }
     .show-content-header{
