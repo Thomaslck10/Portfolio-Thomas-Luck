@@ -15,7 +15,9 @@ function Footer() {
                 <img src={LogoLinkedin} className='logo'></img>
             </a>
          </div>
+         <a href='https://thomaslck10.github.io/Portfolio-Thomas-Luck/CV.pdf' target='_blank'>Télécharger mon CV</a>
          <div className='contact-footer'>
+         
           <div className='phone-div'>
             <img src={Phone} className='logo-phone' alt='logo téléphone'></img>
             <p>06.42.92.57.52</p>
