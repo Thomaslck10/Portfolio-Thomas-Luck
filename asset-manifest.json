@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portfolio-Thomas-Luck/static/css/main.7ad6c76e.css",
-    "main.js": "/Portfolio-Thomas-Luck/static/js/main.c964acfb.js",
+    "main.js": "/Portfolio-Thomas-Luck/static/js/main.08b7b9ca.js",
     "static/media/P5.png": "/Portfolio-Thomas-Luck/static/media/P5.f353874a804c7177052e.png",
     "static/media/P6.png": "/Portfolio-Thomas-Luck/static/media/P6.faa4b90f127206f34ab3.png",
     "static/media/P3.png": "/Portfolio-Thomas-Luck/static/media/P3.303d1aee9f59caa1f041.png",
@@ -12,13 +12,13 @@
     "static/media/phone.png": "/Portfolio-Thomas-Luck/static/media/phone.b91e2a26e11e0694d8ff.png",
     "static/media/debug.png": "/Portfolio-Thomas-Luck/static/media/debug.5b70305d664441fa0e69.png",
     "static/media/site-react.webp": "/Portfolio-Thomas-Luck/static/media/site-react.d9fef5f5ff1aa5448809.webp",
-    "static/media/logo_github.svg": "/Portfolio-Thomas-Luck/static/media/logo_github.270355320eb902e3dda3224b8389c2ac.svg",
+    "static/media/logo_github.svg": "/Portfolio-Thomas-Luck/static/media/logo_github.4fbb049a4b0e3310fadfe143415de743.svg",
     "index.html": "/Portfolio-Thomas-Luck/index.html",
     "main.7ad6c76e.css.map": "/Portfolio-Thomas-Luck/static/css/main.7ad6c76e.css.map",
-    "main.c964acfb.js.map": "/Portfolio-Thomas-Luck/static/js/main.c964acfb.js.map"
+    "main.08b7b9ca.js.map": "/Portfolio-Thomas-Luck/static/js/main.08b7b9ca.js.map"
   },
   "entrypoints": [
     "static/css/main.7ad6c76e.css",
-    "static/js/main.c964acfb.js"
+    "static/js/main.08b7b9ca.js"
   ]
 }
