@@ -4,30 +4,18 @@ import { useState } from 'react';
 
 function Header() {
   const [toggle, setToggle] = useState();
+  const links = {Contact : 'Contact', About : 'A propos', Skills : 'Compétences', Works : 'Travaux', Services : 'Services' }
 
   return (
-    <header>
+    <header>    
       <nav>
-      <img src={bar} className="collapse-img" onClick={() => setToggle(!toggle)}>
-      </img>
-      <div className={toggle ? 'show-content' : 'hidden-content'}>      
-          <a href='#Contact' onClick={() => setToggle(!toggle)}>
-            <h3>Contact</h3>
-          </a>
-          <a href='#About' onClick={() => setToggle(!toggle)}>
-            <h3>A propos</h3>
-          </a>
-          <a href='#Skills' onClick={() => setToggle(!toggle)}>
-            <h3>Compétences</h3>
-          </a>
-          <a href='#Works' onClick={() => setToggle(!toggle)}>
-            <h3>Travaux</h3>
-          </a>
-          <a href='#Services' onClick={() => setToggle(!toggle)}>
-            <h3>Services</h3>
-          </a>
-      </div>
+      <a href='#' className='home'>Thomas Luck</a>  
+      <img src={bar} className="collapse-img" onClick={() => setToggle(!toggle)} alt='icone liste'></img>
       </nav>
+      <div className={toggle ? 'show-content-header' : 'hidden-content'}>
+        {Object.keys(links).map(key => 
+        <a href={`#${key}`} onClick={() => setToggle(false)}>{links[key]}</a>)}  
+      </div>
     </header>
   );
 }

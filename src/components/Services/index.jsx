@@ -9,15 +9,15 @@ function Services() {
             <h2>Mes services</h2>
             <div className='service-grid'>
             <div className='service-card'>
-                <img src={imgReact}></img>
+                <img src={imgReact} alt='image écran de code React'></img>
                 <h3>Création de votre site web avec React</h3>
             </div>
             <div className='service-card'>
-                <img src={SEO}></img>
+                <img src={SEO} alt='image référencement SEO'></img>
                 <h3>Optimisation des performances et du SEO de votre application</h3>
             </div>
             <div className='service-card'>
-                <img src={debug}></img>
+                <img src={debug} alt='image bugs ordinateur'></img>
                 <h3>Correction des bugs</h3>
             </div>
             </div>

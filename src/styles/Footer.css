@@ -1,5 +1,8 @@
 .footer{
-    background-color: #6C0984;
+    background-color: grey; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .footer h3{
@@ -9,6 +12,7 @@
     font-size: 14px;
     margin-top: 0;
     margin-block-end: 0;
+    font-weight: 800;
 }
 
 .logo{
@@ -25,19 +29,26 @@
 }
 
 footer a{
-    padding: 1rem 0.5rem;
+    margin: 1rem 0.5rem;
+    color:white ;
+}
+
+footer a:hover{
+    opacity: 70%;
 }
 
 .logo-phone{
     height: 30px;
     width: 30px; 
     margin-right: 0.5rem;
+    filter: invert(1);
 }
 
 .logo-mail{
     height: 30px;
     width: 30px;
     margin-right: 0.5rem;
+    filter: invert(1);
 }
 
 footer p{

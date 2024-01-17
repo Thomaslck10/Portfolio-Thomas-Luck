@@ -1,7 +1,32 @@
 .show-content{
-
+    cursor: pointer;
 }
 
-.hidden-content{
+.show-content:hover{
+    color: grey;
+}
+
+#Works .hidden-content{
     display: none;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.collapse{
+    margin-bottom: 1rem;
+}
+
+.show-content-description p{
+    font-size: 18px;
+}
+
+.show-content-description a{
+    font-weight: 600;
+}
+
+.collapse a{
+    font-weight: 600;
 }
