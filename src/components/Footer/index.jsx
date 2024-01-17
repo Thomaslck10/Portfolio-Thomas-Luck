@@ -5,6 +5,8 @@ import Phone from '../../assets/images/phone.png';
 import Mail from '../../assets/images/mail.png';
 
 function Footer() {
+    const adresseEmail = 'Thomas.luck10@outlook.fr';
+
     return (
         <footer className='footer'>
          <div className='logo-div'>
@@ -21,8 +23,10 @@ function Footer() {
             <p>06.42.92.57.52</p>
           </div>
          <div className='mail-div'>
-            <img src={Mail} className='logo-mail'></img>
-            <p>Thomas.luck10@outlook.fr</p>
+         <a href={`mailto:${adresseEmail}`}>
+            <img src={Mail} className='logo-mail' alt='Mail'></img>
+            <p>{adresseEmail}</p>
+          </a>
          </div>
         </div>
          <h3>Réalisé par Thomas Luck</h3>
